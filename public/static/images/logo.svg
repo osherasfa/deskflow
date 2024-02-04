@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279.95 334.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: currentColor;
+      }
+
+      .cls-2 {
+        fill: currentColor;
+        filter: invert(0.3);
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="m99.61,14.39l169.48,48.16v168.62l-169.48-48.16V14.39M88.74,0v191.21l191.21,54.34V54.34L88.74,0h0Z"/>
+      <polygon class="cls-1" points="191.21 334.29 0 279.95 0 90.44 191.21 143.08 191.21 334.29"/>
+      <path class="cls-1" d="m91.91,12.2l167.28,47.53-71.15,71.15L20.77,83.34,91.91,12.2m-3.17-10.49L0,90.44l191.21,56.15,88.74-90.55L88.74,1.7h0Z"/>
+      <polygon class="cls-2" points="279.95 245.55 191.21 334.29 191.21 220.33 279.95 245.55"/>
+    </g>
+  </g>
+</svg>
