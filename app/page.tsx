@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="flex justify-center gap-8 flex-wrap py-32">
+        <div className="flex justify-between gap-8 flex-wrap py-32">
           {cardsData.map((card, index) => (
             <div key={index} className="flex flex-col gap-5 p-8 bg-white drop-shadow-xl w-96 aspect-square">
               <div className="flex items-center gap-4">
