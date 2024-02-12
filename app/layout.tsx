@@ -1,11 +1,24 @@
+import Image from "next/image";
+import { DM_Sans } from "next/font/google";
+import Logo from "@/public/static/images/logo.svg";
+import NavBar from "@/app/(root)/_components/NavBar";
+import SearchBar from "@/app/(root)/_components/SearchBar";
+import Sectx from "@/app/ui/Sectx";
+import FooterBar from "@/app/(root)/_components/FooterBar";
+
 import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
 const sans3 = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-sans",
-  weight: ['400', '600', '700']
-})
+  weight: ["400", "600", "700"],
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"]
+});
 
 export const metadata = {
   title: "Deskflow",
@@ -15,7 +28,26 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={sans3.className}>{children}</body>
+      <body className={sans3.className}>
+        <Sectx
+          className="py-16"
+          container={{ className: "bg-gradient-to-b from-[#0F0F33] to-[#050517] text-white" }}
+        >
+          <NavBar className={`flex ${dmSans.className} gap-12 items-center`} />
+          <div className="flex flex-col gap-4">
+            <h1 className="text-4xl font-semibold mt-20">Support Center</h1>
+            <p className="max-w-lg">
+              Browse through our frequently asked questions, tutorials, and other
+              self-help resources to find the answers you need.
+            </p>
+            <SearchBar />
+          </div>
+        </Sectx>
+        <div className="min-h-[66rem]">
+          {children}
+        </div>
+        <FooterBar className="[&>*]:py-14 [&>*]:border-b [&>*]:border-white/5 [&>*:last-child]:border-none" fontFamily={dmSans.className} />
+      </body>
     </html>
   );
 }
