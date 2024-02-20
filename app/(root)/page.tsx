@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link'
-import cardsData from "@/app/lib/placeholder-data-card";
+import cardsData from "@/app/lib/main-data";
 import Sectx from "@/app/ui/Sectx";
 
 export default function Home() {
