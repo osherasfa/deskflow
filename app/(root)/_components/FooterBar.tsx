@@ -1,8 +1,7 @@
-import Sectx from "@/app/ui/Sectx";
 import Image from "next/image";
 import Logo from "@/public/static/images/logo.svg"; 
 
-const FooterBar = ({ className: clsName, fontFamily } : { className?: string, fontFamily?: string }) => {
+const FooterBar = () => {
   const links = {
     "products": ["Shared Hosting", "Virtual Private Server", "Domain", "Email Hosting"],
     "company": ["About Us", "Contact", "Privacy Policy", "Help"],
@@ -10,10 +9,7 @@ const FooterBar = ({ className: clsName, fontFamily } : { className?: string, fo
   };
 
   return ( 
-    <Sectx 
-      className={clsName}
-      container={{ className: `${fontFamily} text-white [&_p]:text-neutral-400 bg-[#06061A] rounded-tr-[3.5rem]`}} 
-    >
+    <div className="[&>*]:py-14 [&>*]:border-b [&>*]:border-white/5 [&>*:last-child]:border-none">
       <div className="flex justify-between ">
         <div className="flex flex-col gap-3 max-w-xl">
           <h1 className="font-semibold text-2xl">
@@ -80,7 +76,7 @@ const FooterBar = ({ className: clsName, fontFamily } : { className?: string, fo
       <p className="text-center">
         COPYRIGHT © 2024 — Osher Asefa Jr.Fullstack
       </p>
-    </Sectx>
+    </div>
   );
 }
  

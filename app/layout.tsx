@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { DM_Sans } from "next/font/google";
-import Logo from "@/public/static/images/logo.svg";
 import NavBar from "@/app/(root)/_components/NavBar";
 import SearchBar from "@/app/(root)/_components/SearchBar";
 import Sectx from "@/app/ui/Sectx";
@@ -43,10 +41,12 @@ export default function RootLayout({ children }) {
             <SearchBar />
           </div>
         </Sectx>
-        <div className="min-h-[66rem]">
+        <div className="div-center h-screen">
           {children}
         </div>
-        <FooterBar className="[&>*]:py-14 [&>*]:border-b [&>*]:border-white/5 [&>*:last-child]:border-none" fontFamily={dmSans.className} />
+        <Sectx container={{ className: `${dmSans.className} text-white [&_p]:text-neutral-400 bg-[#06061A] rounded-tr-[3.5rem]`}}>
+          <FooterBar />
+        </Sectx>
       </body>
     </html>
   );
