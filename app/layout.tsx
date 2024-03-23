@@ -1,8 +1,8 @@
 import { DM_Sans } from "next/font/google";
-import NavBar from "@/app/(root)/_components/NavBar";
-import SearchBar from "@/app/(root)/_components/SearchBar";
+import NavBar from "@/app/ui/NavBar";
+import SearchBar from "@/app/ui/SearchBar";
 import Sectx from "@/app/ui/Sectx";
-import FooterBar from "@/app/(root)/_components/FooterBar";
+import FooterBar from "@/app/ui/FooterBar";
 
 import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
