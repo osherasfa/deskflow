@@ -153,5 +153,5 @@ export default function Editor() {
   });
  
   // Renders the editor instance using a React component.
-  return <BlockNoteView className="overflow-auto h-full" editor={editor} theme={customTheme} editable={false} />;
+  return <BlockNoteView className="overflow-auto h-full" editor={editor} theme={customTheme} editable={true} />;
 }

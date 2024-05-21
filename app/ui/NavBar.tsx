@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 
 const NavBar = ({ className: attrs }: { className: string }) => {
   const path = usePathname();
-  console.log(path);
 
   return ( 
     <nav className={attrs}>
