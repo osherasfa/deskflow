@@ -12,10 +12,11 @@
     "@blocknote/core": "^0.12.1",
     "@blocknote/react": "^0.12.2",
     "clsx": "^2.1.0",
-    "mongoose": "^8.4.0",
+    "lowdb": "^7.0.1",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

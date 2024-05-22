@@ -1,18 +1,21 @@
 'use client'
 
 import { useParams, notFound, usePathname } from "next/navigation";
-import { categories, default as data } from "@/app/lib/data";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useContext } from "react";
+import { DataContext } from "@/app/lib/ContextWrapper";
 
 const SubjectPage = () => {
+  const { data } = useContext(DataContext);
   const params = useParams();
   const pathname = usePathname();
 
   const category = params.subject.toString();
-  const isDefined = Object.keys(categories).includes(category);
+  const categories = Object.keys(data);
 
-  if(!isDefined)
+  if(!categories.includes(category))
     notFound();
 
   
@@ -23,16 +26,17 @@ const SubjectPage = () => {
     <div>
       <h1 className="font-bold pt-4 pb-8">{currPath.join(" / ").toUpperCase()}</h1>
       <div className="flex flex-wrap gap-4">
-        {data.filter(file => file.category === category).map(file => {
+        {Object.keys(data[category].articles).map(uuid => {
+          const article = data[category].articles[uuid];
           return (
-            <Link href={`${pathname}/${file.id}`} key={file.title} className="flex items-center gap-2 font-bold w-[21.375rem] p-5 bg-white">
+            <Link href={`${pathname}/${uuid}`} key={article.title} className="flex items-center gap-2 font-bold w-[21.375rem] p-5 bg-white">
               <Image
                 src="/static/icons/file.svg"
                 alt="file"
                 width={20}
                 height={20}
               />
-              {file.title}
+              {article.title}
             </Link>
           );
         })}

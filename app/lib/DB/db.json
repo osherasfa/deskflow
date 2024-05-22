@@ -1,0 +1,358 @@
+{
+  "faults": {
+    "articles": {
+      "c4aa397d-e082-4796-af55-03bf85ec3238": {
+        "title": "Unlicense Microsoft Office",
+        "body": "<h1>Go to install folder and reinstall office</h1>",
+        "views": 31,
+        "tags": [
+          "office",
+          "microsoft",
+          "error",
+          "license"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "ac86f9dd-e8bd-42c0-9017-e2e0698bf1a5": {
+        "title": "Microsoft Word crashes upon startup",
+        "body": "<h1>Disable add-ins or repair Microsoft Office</h1>",
+        "views": 20,
+        "tags": [
+          "office",
+          "microsoft",
+          "error",
+          "crash"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "6dbcfb45-13f0-4454-b624-e8651226d99d": {
+        "title": "PowerPoint slides do not display",
+        "body": "<h1>Update graphics drivers and repair PowerPoint</h1>",
+        "views": 15,
+        "tags": [
+          "office",
+          "microsoft",
+          "error",
+          "powerpoint"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "39aedb15-86a1-488c-8d5e-276af5588d83": {
+        "title": "Outlook cannot send emails",
+        "body": "<h1>Check email server settings and antivirus/firewall</h1>",
+        "views": 10,
+        "tags": [
+          "office",
+          "microsoft",
+          "error",
+          "outlook"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      }
+    },
+    "properties": {
+      "icon": "exclamation-mark",
+      "color": "#E0FFB8"
+    }
+  },
+  "printers": {
+    "articles": {
+      "77a9ed03-f91e-4805-881b-3a96b8dfff2b": {
+        "title": "Printer doesn't print pages",
+        "body": "<h1>Check printer's status, open trays look for paper jam</h1>",
+        "views": 21,
+        "tags": [
+          "printers",
+          "print",
+          "pages",
+          "paper jam"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "cb8fa558-41cc-4dbe-a0cb-87e586e4e069": {
+        "title": "Printer shows 'offline' status",
+        "body": "<h1>Restart printer spooler service and check network connection</h1>",
+        "views": 14,
+        "tags": [
+          "printers",
+          "offline",
+          "network",
+          "status"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "80d87832-108f-4d5a-8791-fe6b7dc65b88": {
+        "title": "Printed pages are smudged",
+        "body": "<h1>Adjust print quality settings and replace toner/ink</h1>",
+        "views": 12,
+        "tags": [
+          "printers",
+          "print",
+          "smudged",
+          "maintenance"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "76444d8f-ef85-4aa3-91ab-a59ab5f387e8": {
+        "title": "Printer makes loud noises during printing",
+        "body": "<h1>Check for obstructions and lubricate moving parts</h1>",
+        "views": 9,
+        "tags": [
+          "printers",
+          "noise",
+          "maintenance",
+          "hardware"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      }
+    },
+    "properties": {
+      "icon": "printer",
+      "color": "#B8FFFB"
+    }
+  },
+  "scanners": {
+    "articles": {
+      "4e5dd73e-9f05-435d-b014-3bd62b456494": {
+        "title": "Scanner error",
+        "body": "<h1>Reinstall scanner through control panel</h1>",
+        "views": 15,
+        "tags": [
+          "scanners",
+          "software",
+          "errors"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "3bf7640d-5d92-4e84-aa13-d3ef3506fdfa": {
+        "title": "Scanner produces black lines on scans",
+        "body": "<h1>Clean scanner glass and update scanner drivers</h1>",
+        "views": 11,
+        "tags": [
+          "scanners",
+          "lines",
+          "quality",
+          "maintenance"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "c235ee53-7bd5-4c13-a966-b05431e3066a": {
+        "title": "Scanner software crashes when opening",
+        "body": "<h1>Reinstall scanner software and check for conflicts</h1>",
+        "views": 10,
+        "tags": [
+          "scanners",
+          "software",
+          "crash",
+          "reinstall"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "3940e7d4-9d8c-453e-89ad-9964babf6195": {
+        "title": "Scanner scans are too dark",
+        "body": "<h1>Adjust brightness and contrast settings in scanner software</h1>",
+        "views": 8,
+        "tags": [
+          "scanners",
+          "dark scans",
+          "settings",
+          "quality"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      }
+    },
+    "properties": {
+      "icon": "scanner",
+      "color": "#FFB8CD"
+    }
+  },
+  "users": {
+    "articles": {
+      "a6df0527-7cfa-45d7-9564-4d8881cdafc6": {
+        "title": "reset password",
+        "body": "<h1>Go to Active Directory and reset password</h1>",
+        "views": 12,
+        "tags": [
+          "users",
+          "password",
+          "active directory"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "dafe7fff-0dc6-4de2-b309-4290687bab1b": {
+        "title": "User account password expired",
+        "body": "<h1>Change password via Ctrl+Alt+Del or contact IT support</h1>",
+        "views": 10,
+        "tags": [
+          "users",
+          "password",
+          "expiration",
+          "IT support"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "c5ace7c7-6321-4def-a4e6-371f0371a325": {
+        "title": "User profile settings not saving",
+        "body": "<h1>Check permissions and reset user profile if necessary</h1>",
+        "views": 9,
+        "tags": [
+          "users",
+          "profile",
+          "settings",
+          "permissions"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "63812d5b-7a12-483d-a65d-7cbb58d5ce2f": {
+        "title": "User cannot access shared network drive",
+        "body": "<h1>Verify network permissions and check drive mapping</h1>",
+        "views": 8,
+        "tags": [
+          "users",
+          "network drive",
+          "access",
+          "permissions"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      }
+    },
+    "properties": {
+      "icon": "user",
+      "color": "#FFDAB8"
+    }
+  },
+  "olim": {
+    "articles": {
+      "b1e77c1f-b96e-4fbc-ad72-bff2356c4310": {
+        "title": "Olim can't open files",
+        "body": "<h1>Add /Z: and /U: drivers to PC</h1>",
+        "views": 8,
+        "tags": [
+          "drivers",
+          "olim",
+          "website"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "ef9aef3c-d3fb-4d21-bc59-f264debee36e": {
+        "title": "Olim website displays outdated information and some bullshit",
+        "body": "<h1>Refresh browser cache or contact website administrator</h1>",
+        "views": 8,
+        "tags": [
+          "olim",
+          "website",
+          "outdated",
+          "cache"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "9f682cfe-e030-4d19-b484-26aceeccb74b": {
+        "title": "Olim website login not working",
+        "body": "<h1>Clear browser cookies and try logging in again</h1>",
+        "views": 7,
+        "tags": [
+          "olim",
+          "website",
+          "login",
+          "cookies"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "7d225cef-64ad-401b-91cd-37044ef73322": {
+        "title": "Olim website slow loading times",
+        "body": "<h1>Check internet connection speed and browser performance</h1>",
+        "views": 6,
+        "tags": [
+          "olim",
+          "website",
+          "slow",
+          "loading"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      }
+    },
+    "properties": {
+      "icon": "passport",
+      "color": "#B9FFB8"
+    }
+  },
+  "software": {
+    "articles": {
+      "27d37380-f7be-4e04-8161-e66c896b7b8b": {
+        "title": "PDF software unavailable",
+        "body": "<h1>Go to Install folder and reinstall Adobe Acrobat</h1>",
+        "views": 11,
+        "tags": [
+          "pdf",
+          "install",
+          "software"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "96329ed7-82b0-4201-8ff9-365d21bc88f1": {
+        "title": "Software license key invalid",
+        "body": "<h1>Contact software vendor for valid license key</h1>",
+        "views": 8,
+        "tags": [
+          "software",
+          "license",
+          "invalid",
+          "vendor"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "1409cce4-79c1-402b-920f-2268a7d63b28": {
+        "title": "Software update fails to install",
+        "body": "<h1>Check system requirements and try manual installation</h1>",
+        "views": 7,
+        "tags": [
+          "software",
+          "update",
+          "installation",
+          "fail"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      },
+      "4c393f4e-4a7c-4693-bdea-dde2eb6ce4a4": {
+        "title": "Software crashes randomly",
+        "body": "<h1>Update software to latest version or check for conflicts</h1>",
+        "views": 6,
+        "tags": [
+          "software",
+          "crash",
+          "update",
+          "conflict"
+        ],
+        "createdAt": "2024-05-22T09:37:54.690Z",
+        "changedAt": "2024-05-22T09:37:54.690Z"
+      }
+    },
+    "properties": {
+      "icon": "software",
+      "color": "#DBB8FF"
+    }
+  }
+}
